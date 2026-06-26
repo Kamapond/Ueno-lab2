@@ -1,0 +1,30 @@
+# Python 3.13. Dependencies inferred from the appendix code (Appendices A, D, E, F).
+# Pin exact versions from your working environment before release: `pip freeze > requirements.lock`.
+
+# --- IRT estimation (Appendix A) ---
+numpyro>=0.15
+jax>=0.4
+jaxlib>=0.4
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# --- RAG / GraphRAG pipelines (Appendices D, E, F) ---
+langchain>=0.2
+langchain-openai>=0.1
+langchain-community>=0.2
+langchain-text-splitters>=0.2
+chromadb>=0.5
+neo4j>=5.20
+openai>=1.30
+
+# --- Data handling / batch processing ---
+pandas>=2.0
+openpyxl>=3.1
+tqdm>=4.66
+
+# --- Document preprocessing (OCR/ folder) ---
+mistralai>=1.0
+
+# --- Configuration ---
+python-dotenv>=1.0
