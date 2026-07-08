@@ -32,7 +32,6 @@ the RAG pipeline, and the structure-aware knowledge-graph (GraphRAG) constructio
 | `F.3 Hybrid Scoring` | Appendix F.3 | Two-axis scoring (graph score Sg, text score St) |
 | `F.4 Skyline Ranking` | Appendix F.4 | Skyline (Pareto-optimal) context selection |
 | `F.5 GraphRAG Prompt` | Appendix F.5 | GraphRAG answer-generation prompt |
-| `OCR` | (preprocessing) | Mistral OCR → Markdown conversion of source standards (not a numbered appendix) |
 
 > Notes: Appendix A.1–A.4 belong to *Appendix A* in the paper. Appendix B (KG schema) is a table, and the
 > system prompt (Appendix D.1) is reproduced inline in the article; neither needs a code folder.
