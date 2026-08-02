@@ -1,0 +1,36 @@
+# Python 3.13. Dependencies inferred from the released code (Appendices A, B, C and Sections III-E, VI
+# of the article). Section labels follow the ARTICLE, not the Japanese source manuscript.
+# Pin exact versions from your working environment before release: `pip freeze > requirements.lock`.
+
+# --- IRT estimation (Appendix A) --- irt/
+numpyro>=0.15
+jax>=0.4
+jaxlib>=0.4
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# --- Baseline / RAG / GraphRAG pipelines (Section III-E Condition 1; Appendices B and C) ---
+# --- baseline/, rag/, graphrag/
+langchain>=0.2
+langchain-core>=0.2
+langchain-openai>=0.1
+langchain-community>=0.2
+langchain-text-splitters>=0.2
+langchain-experimental>=0.0.60   # LLMGraphTransformer (graphrag/extraction.py)
+chromadb>=0.5
+neo4j>=5.20
+openai>=1.30
+
+# --- Data handling / batch processing ---
+pandas>=2.0
+openpyxl>=3.1
+tqdm>=4.66
+
+# --- JIS clause drafting (Section VI) --- jis_drafting/
+# draft_jis_clauses.py needs only the standard library and numpy (listed above); the knowledge-graph,
+# model-client and citation-resolver factories are supplied by the deployment (see README).
+
+
+# --- Configuration ---
+python-dotenv>=1.0
