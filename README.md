@@ -77,13 +77,6 @@ Each module corresponds to the part of the article that describes it. Cite files
 > describes — IRT estimation, chunking, hybrid scoring, Skyline selection, constrained generation,
 > verification — is published in full.
 
-> **Relationship to the appendixes of the underlying Japanese manuscript.** The listings printed there
-> are abridged excerpts. This repository restores the imports, configuration and module structure needed
-> to read and run them, and corrects two abridgement errata: the extraction schema is the full
-> 25 entity / 103 relation vocabulary of TABLE VII and TABLE VIII (the excerpt showed 11 and 8), and the
-> Skyline selection limit is 50 with a candidate pool ten times that size (the excerpt showed 5).
-> Both corrected values are the ones used throughout the reported experiments.
-
 ## Requirements
 
 - Python 3.13
