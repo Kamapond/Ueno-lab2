@@ -13,10 +13,6 @@ requirement and logic (17 types) and measurement and value (18 types) — becaus
 text the difference between "shall be" and "is recommended", or between a maximum and a
 tolerance, is the content rather than a nuance of phrasing.
 
-NOTE ON THE PUBLISHED SOURCE. The abridged listing printed in the appendix of the underlying
-Japanese manuscript shows 11 node types and 8 relation types, and its body text states 19 and
-109. Both are errata of the abridgement. The authoritative counts are 25 and 103, as given in
-TABLE VII and TABLE VIII of the article, and they are reproduced in full here.
 """
 
 from __future__ import annotations
