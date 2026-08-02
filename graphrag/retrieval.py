@@ -22,10 +22,6 @@ Keyword extraction. Search terms are extracted from the question by the same mod
 produces the answer, rather than the question being sent to the graph verbatim: the query is an
 examination item, and its incidental wording would otherwise dilute the entity match.
 
-NOTE ON THE PUBLISHED SOURCE. The abridged listing in the appendix of the underlying Japanese
-manuscript shows `limit=5`, an artefact of the abridgement. The configuration used throughout
-the reported experiments selects 50 chunks from a candidate pool ten times that size, as stated
-in Section III-E-3.
 """
 
 from __future__ import annotations
