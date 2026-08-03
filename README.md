@@ -1,11 +1,6 @@
-<!-- Generated for upload to https://github.com/Kamapond/Ueno-lab2 (commit to repo ROOT).
-     Replace all [PLACEHOLDER] items before committing. After minting the Zenodo DOI (see
-     SECURITY_AUDIT_CHECKLIST.md / repo steps), paste the DOI badge line at the top. -->
-
 # Knowledge-Graph-Driven RAG for Accelerating International Standards Alignment
 
-<!-- [PLACEHOLDER: after Zenodo release, add the DOI badge, e.g.]
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21765802.svg)](https://doi.org/10.5281/zenodo.21765802)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Reference implementation for the IEEE Access article *“Knowledge-Graph-Driven RAG for Accelerating
@@ -31,7 +26,7 @@ the RAG pipeline, and the structure-aware knowledge-graph (GraphRAG) constructio
      *.csv / *.json / *.xlsx / data/ / outputs/. -->
 
 Each module corresponds to the part of the article that describes it. Cite files by tag-pinned permalink, e.g.
-`https://github.com/Kamapond/Ueno-lab2/tree/v1.0.0/rag`.
+`https://github.com/Kamapond/Ueno-lab2/tree/v1.0.1/rag`.
 
 ```
 .
@@ -134,8 +129,8 @@ If you use this code, please cite the article and the archived snapshot:
   author  = {Matsuzono, Shinichi and Ueno, Tsuyoshi},
   title   = {Knowledge-Graph-Driven RAG for Accelerating International Standards Alignment (code)},
   year    = {2026},
-  version = {v1.0.0},
-  doi     = {[PLACEHOLDER: 10.5281/zenodo.XXXXXXX]},
+  version = {v1.0.1},
+  doi     = {10.5281/zenodo.21765803},
   url     = {https://github.com/Kamapond/Ueno-lab2}
 }
 ```
@@ -147,5 +142,6 @@ covered by this license and are not distributed here.
 
 ## Contact
 
-Shinichi Matsuzono — ORCID [0009-0007-6262-6032](https://orcid.org/0009-0007-6262-6032),
-e-mail [PLACEHOLDER: address].
+Shinichi Matsuzono — ORCID [0009-0007-6262-6032](https://orcid.org/0009-0007-6262-6032).
+
+For correspondence regarding the article, see the corresponding-author details in the publication.
