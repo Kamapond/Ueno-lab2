@@ -1,0 +1,34 @@
+# --- Secrets (NEVER commit) ---
+.env
+*.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Vector store / databases / caches ---
+.chroma/
+chroma*/
+*.pkl
+*.pickle
+*.sqlite
+*.db
+
+# --- Copyrighted / generated data (do NOT distribute) ---
+data/
+outputs/
+*.xlsx
+*.csv
+*.json
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
