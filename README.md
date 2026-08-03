@@ -121,9 +121,9 @@ If you use this code, please cite the article and the archived snapshot:
   author  = {Matsuzono, Shinichi and Ueno, Tsuyoshi},
   title   = {Knowledge-Graph-Driven RAG for Accelerating International Standards Alignment},
   journal = {IEEE Access},
-  year    = {2026},
-  note    = {[PLACEHOLDER: volume, pages, DOI on acceptance]}
+  year    = {2026}
 }
+% Volume, pages and the article DOI are added to the entry above on publication.
 
 @software{Matsuzono2026Code,
   author  = {Matsuzono, Shinichi and Ueno, Tsuyoshi},
